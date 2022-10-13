@@ -1,15 +1,3 @@
-// function age(event) {
-//     event.preventDefault();
-//     let input = document.getElementById("date").value;
-//     let heute = new Date();
-//     let year = heute.getFullYear();
-//     console.log(year);
-//     let output = year - input;
-//     document.getElementById("alter").innerHTML = output;
-// }
-
-// let a = document.getElementById("counterDisplay").value;
-// let curNum = document.getElementById("counterDisplay").innerHTML;
 let curNum = 0;
 document.getElementById("counterDisplay").innerHTML = curNum;
 
