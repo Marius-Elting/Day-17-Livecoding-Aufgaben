@@ -12,11 +12,11 @@ function age(event) {
 function changeHeadline(event) {
     event.preventDefault();
     let big = document.getElementById("tag");
-    tag.classList.add("big");
+    big.classList.add("big");
 }
 
 function resetHeadline(event) {
     event.preventDefault();
     let big = document.getElementById("tag");
-    tag.classList.remove("big");
+    big.classList.remove("big");
 }
